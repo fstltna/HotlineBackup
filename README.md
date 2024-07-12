@@ -10,6 +10,3 @@ Creates a backup of your Hotline server
 
 3. This will back up your Hotline installation at 1:01am each day, and keep the last 5 backups.
 
-4. Edit the backup config:
- 	Run a manual backup and it will ask you for the mysql config info. If you need to reconfigure it use the "-prefs" command-line option
-
