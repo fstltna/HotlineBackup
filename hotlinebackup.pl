@@ -5,7 +5,6 @@ my $MTDIR = "/home/hotlineuser/HotlineFiles";
 my $BACKUPDIR = "/home/hotlineuser/backups";
 my $TARCMD = "/bin/tar czf";
 my $VERSION = "1.0.0";
-my $OPTION_FILE = "/home/hotlineuser/.cmbackuprc";
 my $DOSNAPSHOT = 0;
 my $FILEEDITOR = $ENV{EDITOR};
 
