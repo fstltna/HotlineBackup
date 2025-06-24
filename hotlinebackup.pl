@@ -82,7 +82,7 @@ while ($FileRevision > 0)
 }
 
 print "Done\nCreating New Backup: ";
-system("$TARCMD $BACKUPDIR/hotlinebackup-1.tgz $MTDIR");
+system("$TARCMD $BACKUPDIR/hotlinebackup-1.tgz $MTDIR > /dev/null 2>\&1");
 print "Done\n";
 
 exit 0;
